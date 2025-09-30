@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título */
+.titulo {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  margin: 20px;
+}
+
+/* Contenedor de tarjetas */
+.cardsContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Tarjeta de producto */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 220px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Texto de stock */
+.stock {
+  color: green;
+  font-weight: bold;
+}
+
+.agotado {
+  color: red;
+  font-weight: bold;
+}
+
+/* Botón */
+.boton {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+
+.boton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

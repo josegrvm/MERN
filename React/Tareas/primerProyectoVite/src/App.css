@@ -1,0 +1,33 @@
+#root {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+body{
+  background-color: #f0f0f0f0;
+}
+
+h1{
+  color: #2c3e50;
+}
+
+.listados{
+padding: 0;
+}
+
+h2{
+  color: #46a086;
+  margin: 0;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  color: black;
+  list-style: none;
+}
