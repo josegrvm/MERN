@@ -1,4 +1,3 @@
-// src/NoteList.jsx
 function NoteList({ notes, onDeleteNote }) {
     return (
         <ul className="note-list">

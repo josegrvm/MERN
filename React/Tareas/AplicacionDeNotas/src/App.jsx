@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useState } from "react";
 import NoteForm from "./NoteForm";
 import NoteList from "./NoteList";
@@ -36,8 +35,4 @@ function App() {
 
 export default App;
 
-
-```jsx
-
-```
 
