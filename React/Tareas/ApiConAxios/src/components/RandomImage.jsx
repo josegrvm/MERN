@@ -6,7 +6,7 @@ const RandomImage = () => {
 
     const fetchRandomImage = async () => {
         try {
-        const response = await axios.get("https://rickandmortyapi.com/api/character");
+        const response = await axios.get('https://picsum.photos/600/400');
         setImageUrl(response.request.responseURL);
         } catch (error) {
         console.error("Error al obtener imagen:", error);
