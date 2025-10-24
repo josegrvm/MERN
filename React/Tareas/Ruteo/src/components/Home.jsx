@@ -5,7 +5,7 @@ import "./Home.css";
 const Home = () => {
     return (
         <div className="home-container">
-        <h1>Bienvenido a la Galería de Arte Futurista</h1>
+        <h1>Bienvenido a la Galería de Arte</h1>
         <ul>
             {artworks.map((art) => (
             <li key={art.id}>
